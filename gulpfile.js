@@ -50,8 +50,8 @@ function images() {
 function scripts() {
   return src([
     'node_modules/jquery/dist/jquery.js',
-    // 'node_modules/slick-carousel/slick/slick.js',
-    'app/js/main.js'
+    'app/js/dycalendar.js',
+    'app/js/main.js',
   ])
     .pipe(concat('main.min.js'))
     .pipe(uglify())
