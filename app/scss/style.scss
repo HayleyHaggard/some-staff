@@ -1,0 +1,19 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'theme';
+@import 'global';
+@import 'libs';
+
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #161616;
+  overflow: hidden;
+}
+
+@import 'media';
